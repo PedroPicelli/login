@@ -91,7 +91,11 @@ section#login input#btnEnviar:hover {
     opacity: 70%;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 550px) {
+    body {
+        overflow: hidden;
+    }
+
     section#login {
         width: 100vw;
         height: 100vh;
