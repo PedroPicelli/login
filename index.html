@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./estilos/style.css">
+        <title>Login</title>
+    </head>
+    <body>
+        <main>
+            <section id="login">
+                <div id="erroLogin"></div>
+                <form action="" method="post" autocomplete="off">
+                    <div class="entradas">
+                        <label for="usuario">Nome de usuario:</label>
+                        <input type="text" name="usuario" id="usuario">
+                    </div class="entradas">
+                    <div class="entradas">
+                        <label for="email">Email:</label>
+                        <input type="mail" name="email" id="email">
+                    </div>
+                    <div class="entradas">
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha">
+                    </div>
+                    <div class="entradas">
+                        <label for="repSenha">Repita sua senha:</label>
+                        <input type="password" name="repSenha" id="repSenha">
+                    </div>
+                    <div>
+                        <input type="checkbox" name="termos" id="termos">
+                        <label for="termos">Eu aceito os <a href="#">Termos de contrato</a></label>
+                    </div>
+                    <div>
+                        <input type="button" value="Enviar" id="btnEnviar">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>
